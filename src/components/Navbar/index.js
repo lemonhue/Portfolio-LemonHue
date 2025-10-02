@@ -24,8 +24,8 @@ const Navbar = () => {
          <NavLink
           exact="true"
           activeclassname="active"
-          className="work-link"
-          to="/work"
+          className="projects-link"
+          to="/projects"
         >
           <FontAwesomeIcon icon={faEye} color="#4d4d4e" />
         </NavLink>
