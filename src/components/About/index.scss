@@ -1,0 +1,11 @@
+.background-image {
+  position: absolute; // Ensure it is positioned relative to its container
+  top: 0;
+  left: 0;
+  min-width: 100%; // Adjust as needed
+  height: 90%; // Adjust as needed
+  z-index: -1; // Set to the lowest z-index
+  object-fit: cover; // Ensures the image covers the container
+  object-position: 50% 40%;
+  transform: translateY(-80px);
+}

@@ -6,6 +6,8 @@
   min-width: 10px;
 }
 
+
+
 .text-animate-hover {
   min-width: 10px;
   display: inline-block;
@@ -17,7 +19,7 @@
   }
 }
 
-@for $i from 1 through 48 {
+@for $i from 1 through 50 {
   .text-animate._#{$i} {
     animation-delay: #{$i / 20}s;
   }
