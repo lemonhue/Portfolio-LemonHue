@@ -41,7 +41,7 @@ const Navbar = () => {
         <NavLink
           exact="true"
           activeclassname="active"
-          to="/contact"
+          to="/contacts"
           className="contact-link"
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
