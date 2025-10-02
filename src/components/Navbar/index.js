@@ -2,6 +2,7 @@ import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
 import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
+import About from '../About'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faEnvelope,
@@ -23,8 +24,8 @@ const Navbar = () => {
          <NavLink
           exact="true"
           activeclassname="active"
-          className="about-link"
-          to="/about"
+          className="work-link"
+          to="/work"
         >
           <FontAwesomeIcon icon={faEye} color="#4d4d4e" />
         </NavLink>
