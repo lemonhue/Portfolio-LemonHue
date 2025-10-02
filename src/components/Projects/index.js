@@ -4,7 +4,7 @@ import AnimatedLetters from '../AnimatedLetters'
 
 const Projects = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const headerArray = ' Projects'.split('')
+  const headerArray = ' Projects.'.split('')
 
   useEffect(() => {
     const timer = setTimeout(() => {
