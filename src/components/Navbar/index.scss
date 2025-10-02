@@ -38,7 +38,7 @@
       text-decoration: none;
 
       &:hover {
-        color: #372d12;
+        color: #115173;
 
         &:after {
           opacity: 1;
@@ -46,13 +46,13 @@
       }
 
       &:hover svg {
-        color: #372d12;
+        color: #115173;
       }
     }
 
     a.active {
       svg {
-        color: #372d12;
+        color: #115173;
       }
     }
   }

@@ -31,7 +31,7 @@ const Projects = () => {
           <div className="card">
             <h1>01</h1>
             <div  className="card-content-header">
-              <h2 >AssetPro</h2>
+              <a >AssetPro</a>
             </div>
             <div className="card-description">
               <h2>

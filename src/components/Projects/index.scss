@@ -13,18 +13,22 @@
   }
 }
 .card-content-header {
+  text-decoration: none;
   display: flex;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-top: 1px solid #beb396; // Adds a border line on top only
   border-bottom: 1px solid #beb396; // Adds a border line on top only
-  font-size: 12px;
-  color: #372d12;
-  font-weight: bolder;
+  font-size: 18px;
+  font-weight: bold;
   position: relative;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 a {
-  color: #372d12;
+  color: #313131;
   text-decoration: underline;
 }
 

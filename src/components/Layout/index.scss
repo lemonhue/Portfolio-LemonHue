@@ -74,7 +74,7 @@
     h1 {
       font-size: 80px;
       font-family: 'Coolvetica';
-      color: #372d12;
+      color: #115173;
       font-weight: 500;
       position: relative;
     }
@@ -127,11 +127,6 @@ button {
   padding-top: -60px;
   overflow: hidden;
   transition: transform 0.3s;
-
-  &:hover {
-    transform: scale(1.05);
-    background-color: #dfd3bb;
-  }
 
   h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
