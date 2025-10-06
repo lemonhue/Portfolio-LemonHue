@@ -19,14 +19,17 @@ const About = () => {
         </h1>
 
         <div className="description">
-        <p>
-          My name is Lou but I go by Lemonhue online. I have a passion for the
-          arts and this love for the craft eventually led me into the art of Web
-          Developing.{' '}
-        </p>
+          <p>
+            My name is Lou but I go by Lemonhue online. I have a passion for the
+            arts and I took up Programming because I believe it bridges the gap
+            between arts and science.I like creating things that are visually
+            interesting and on that, I believe that web dev can be something
+            more than just functionality. It can be visually inspiring without
+            losing its purpose.{' '}
+          </p>
+        </div>
       </div>
-      </div>
-      
+
       <div className="profile">
         <img src={Me} alt="Background" className="background-image" />
       </div>
