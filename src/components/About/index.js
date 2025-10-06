@@ -5,7 +5,7 @@ import Me from '../../assets/images/me.jpg'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const headerArray = ' About me.'.split('')
+  const headerArray = ' About    me.'.split('')
 
   return (
     <div className="container about-page">
@@ -16,13 +16,17 @@ const About = () => {
             letterClass={letterClass}
             idx={15}
           />
-          <p>
-            My name is Lou but I go by Lemonhue online. I have a passion for the
-            arts and this love for the craft eventually led me into the art of
-            Web Developing.{' '}
-          </p>
         </h1>
+
+        <div className="description">
+        <p>
+          My name is Lou but I go by Lemonhue online. I have a passion for the
+          arts and this love for the craft eventually led me into the art of Web
+          Developing.{' '}
+        </p>
       </div>
+      </div>
+      
       <div className="profile">
         <img src={Me} alt="Background" className="background-image" />
       </div>

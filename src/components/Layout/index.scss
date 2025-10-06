@@ -40,27 +40,31 @@
 
 .about-page {
   .text-zone {
-    max-width: 500px;
     position: absolute;
     left: 10%;
-    top: 92%;
+    top: 94%;
     transform: translateY(-50%);
-    width: 35%;
+    width: 100%;
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
 
     h1 {
-      font-size: 53px;
+      letter-spacing: 1px;
+      bottom: 10%;
+      font-size: 350px;
       font-family: 'Coolvetica';
-      color: #354e91;
+      color: #f8f6f3;
       font-weight: 400;
-      margin-top: 0;
-      position: relative;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); // Add this line
+      position: absolute;
     }
 
     p {
-      font-size: 18px;
+      bottom: 10%;
+      left: 0%;
+      position: absolute;
+      font-size: 25px;
     }
   }
 }
@@ -124,7 +128,7 @@ button {
 }
 
 .card {
-  border-top: 1px solid #beb396; // Adds a border line on top only
+  border-top: 1px solid #464e53; // Adds a border line on top only
   max-width: 300px;
   min-width: 300px;
   min-height: 300px;

@@ -9,39 +9,52 @@
 
 .card-link {
   span {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
   }
 }
 .card-content-header {
   text-decoration: none;
   display: flex;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border-top: 1px solid #beb396; // Adds a border line on top only
-  border-bottom: 1px solid #beb396; // Adds a border line on top only
-  font-size: 18px;
-  font-weight: bold;
+  font-family: 'Coolvetica';
+  border-top: 1px solid #464e53; // Adds a border line on top only
+  border-bottom: 1px solid #464e53; // Adds a border line on top only
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-weight: 200;
   position: relative;
 
   a {
+    color: #31373b;
+
     text-decoration: none;
   }
 }
 
 a {
-  color: #313131;
+  color: #31373b;
   text-decoration: underline;
 }
 
 .card-link {
-  border-top: 1px solid #beb396; // Adds a border line on top only
-  border-bottom: 1px solid #beb396;
+  border-top: 1px solid #31373b; // Adds a border line on top only
+  border-bottom: 1px solid #464e53;
   font-size: 15px;
   font-weight: bold;
 }
 
 h1 {
+  letter-spacing: 1px;
   margin: 0px;
   font-size: 90px;
+}
+
+h2 {
+  color: #31373b;
+  margin-top: 20px;
+  font-weight: 200;
+  font-size: 14px;
+  font-family: 'Coolvetica';
+  letter-spacing: 2px;
 }
 // span {
 //     display: inline-block;

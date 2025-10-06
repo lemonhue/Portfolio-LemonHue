@@ -23,7 +23,6 @@
   }
 
   nav {
-
     margin-top: 12px;
     display: block;
     text-align: center;
@@ -32,6 +31,7 @@
     width: 100%;
 
     a {
+      letter-spacing: 1px;
       font-family: 'Coolvetica';
       color: #464e53;
       margin: 15px;
@@ -42,21 +42,18 @@
       text-decoration: none;
 
       &:hover {
-        font-size: 20px;
-
         &:after {
           opacity: 1;
         }
       }
 
       &:hover {
-        color: #115173;
+        color: #354e91;
       }
     }
 
     a.active {
-      font-size: 20px;
-      color: #115173;
+      color: #354e91;
     }
   }
 
