@@ -40,14 +40,11 @@
 
 .about-page {
   .text-zone {
-    position: absolute;
-    left: 10%;
-    top: 94%;
-    transform: translateY(-50%);
-    width: 100%;
-    vertical-align: middle;
-    display: table-cell;
-    max-height: 90%;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     h1 {
       letter-spacing: 1px;
@@ -57,13 +54,16 @@
       color: #f8f6f3;
       font-weight: 400;
       text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); // Add this line
-      position: absolute;
+      position: relative;
+    }
+
+    .description {
+      margin-top: -100px;
+      display: flex;
+      justify-content: center;
     }
 
     p {
-      bottom: 10%;
-      left: 0%;
-      position: absolute;
       font-size: 25px;
     }
   }
