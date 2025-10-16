@@ -20,11 +20,10 @@ const About = () => {
 
         <div className="description">
           <p>
-            My name is Lou but I go by Lemonhue online. I have a passion for the
-            arts and I took up Programming because I believe it bridges the gap
-            between arts and science. I like creating things that are visually
-            interesting and on that, I believe that web dev can be
-            more than just functionality. {' '}
+            I’m Lou, though I go by Lemonhue online. My passion for the arts led me to
+            programming, where I found a perfect balance between creativity and
+            logic. I love creating projects that don’t just work well but also
+            spark inspiration through their visuals.{' '}
           </p>
         </div>
       </div>
