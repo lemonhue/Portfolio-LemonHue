@@ -15,19 +15,17 @@ const Contacts = () => {
   const headerArray = ' Contact me.'.split('')
 
   return (
-
-    
     <div className="container contacts-page">
-      
       <div className="text-zone-main">
         <ul>
           <li>
-            <a>
+            <a href='https://github.com/lemonhue'>
               <FontAwesomeIcon
                 icon={faGithub}
                 color="#4d4d4e"
                 className="anchor-icon"
               />
+              <p>@lemonhue</p>
             </a>
           </li>
           <li>
@@ -37,16 +35,18 @@ const Contacts = () => {
                 color="#4d4d4e"
                 className="anchor-icon"
               />
+              <p>lemonhue54@gmail.com</p>
             </a>
           </li>
 
           <li>
-            <a>
+            <a href="https://www.linkedin.com/in/lou-espeja-b427b3259/">
               <FontAwesomeIcon
                 icon={faLinkedinIn}
                 color="#4d4d4e"
                 className="anchor-icon"
               />
+              <p>Lou Espeja</p>
             </a>
           </li>
         </ul>

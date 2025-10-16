@@ -155,7 +155,6 @@ button {
 
     ul {
       gap: 20px;
-      flex-direction: column;
       display: flex; // Ensure the anchor tag respects Flexbox
       align-items: center; // Center the icon vertically
       justify-content: center;
@@ -164,15 +163,31 @@ button {
     }
 
     a {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
+      p {
+        position: absolute;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        font-size: 25px;
+      }
       svg {
+        margin-left: 50px;
+        margin-right: 50px;
         transition: transform 0.3s;
-        font-size: 50px;
+        font-size: 70px;
       }
 
       &:hover {
         svg {
-          transform: translateX(-150px);
+          transform: translateY(-50px);
           color: #354e91;
+        }
+
+        p {
+          opacity: 1; // Make the <p> visible when <a> is hovered
         }
       }
     }
