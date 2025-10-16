@@ -145,23 +145,36 @@ button {
 }
 
 .contacts-page {
-  .text-zone {
-    position: absolute;
-    left: 10%;
-    top: 10%;
-    transform: translateY(-50%);
-    width: 35%;
-    vertical-align: middle;
-    display: table-cell;
-    max-height: 90%;
+  flex-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .text-zone-main {
+    width: auto;
+    display: inline-flex;
 
-    h1 {
-      font-size: 53px;
-      font-family: 'Coolvetica';
-      color: #354e91;
-      font-weight: 400;
-      margin-top: 0;
-      position: relative;
+    ul {
+      gap: 20px;
+      flex-direction: column;
+      display: flex; // Ensure the anchor tag respects Flexbox
+      align-items: center; // Center the icon vertically
+      justify-content: center;
+      margin: 0;
+      list-style: none;
+    }
+
+    a {
+      svg {
+        transition: transform 0.3s;
+        font-size: 50px;
+      }
+
+      &:hover {
+        svg {
+          transform: translateX(-150px);
+          color: #354e91;
+        }
+      }
     }
   }
 }
