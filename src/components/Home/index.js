@@ -53,10 +53,6 @@ const Home = () => {
           />
         </h1>
         <h2> Frontend Developer / Javascript Developer / Illustrator</h2>
-
-        <Link to="/contacts" className="flat-button">
-          CONTACT ME
-        </Link>
       </div>
       <div className="skills">
         <ul>
@@ -94,6 +90,11 @@ const Home = () => {
             <img src={Github} alt="Github" />
           </li>
         </ul>
+      </div>
+      <div className="contact-button">
+        <Link to="/contacts" className="flat-button">
+          CONTACT ME
+        </Link>
       </div>
       <Logo />
     </div>
