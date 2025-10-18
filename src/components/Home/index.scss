@@ -58,8 +58,6 @@
     }
   }
 
-  
-
   .skills {
     position: absolute;
     top: 63%;
@@ -74,6 +72,8 @@
     }
 
     img {
+      animation: fadeIn 1s 1.8s backwards;
+
       object-fit: contain;
       width: 40px;
       height: 40px;
