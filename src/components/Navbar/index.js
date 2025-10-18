@@ -20,14 +20,6 @@ const Navbar = () => {
         <NavLink exact="true" activeclassname="active" to="/">
           Home
         </NavLink>
-        <NavLink
-          exact="true"
-          activeclassname="active"
-          to="/skills"
-          className="contact-link"
-        >
-          Skills
-        </NavLink>
 
         <NavLink
           exact="true"
