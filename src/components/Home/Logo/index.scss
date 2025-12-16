@@ -1,26 +1,28 @@
-.image-container {
-  z-index: 0;
-  top: 150px;
-  position: relative;
-  opacity: 1;
-}
-
-.image {
-  border-radius: 50%;
-  height: 700px;
-
-  width: 700px;
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
+@media (width > 480px) {
   .image-container {
     z-index: 0;
-    top: 150px;
+    position: relative;
     opacity: 1;
   }
 
   .image {
     border-radius: 50%;
+    height: 700px;
+    width: 700px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .image-container {
+    z-index: 0;
+    opacity: 1;
+    height: 50%;
+    margin-top: 130px;
+  }
+
+  .image {
+    border-radius: 50%;
+
     height: 300px;
     width: 300px;
   }
