@@ -1,0 +1,49 @@
+.contacts-page {
+  flex-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .text-zone-main {
+    width: auto;
+    display: inline-flex;
+
+    ul {
+      gap: 20px;
+      display: flex; 
+      align-items: center; 
+      justify-content: center;
+      margin: 0;
+      list-style: none;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
+      p {
+        position: absolute;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        font-size: 25px;
+      }
+      svg {
+        margin-left: 50px;
+        margin-right: 50px;
+        transition: transform 0.3s;
+        font-size: 70px;
+      }
+
+      &:hover {
+        svg {
+          transform: translateY(-50px);
+          color: #354e91;
+        }
+
+        p {
+          opacity: 1; 
+        }
+      }
+    }
+  }
+}
