@@ -1,47 +1,98 @@
-.container-about-page {
-  .background-image {
-    position: relative;
-    margin-top: 5%;
-    width: 100vw;
-    height: 80vh;
-    z-index: -1;
-    object-fit: cover;
-    object-position: 50% 40%;
-    transform: translateY(-80px);
-  }
-  .profile {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-  }
-  .about-page-header {
-    top: 45%;
-    display: flex;
-    position: fixed;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+@media (width > 480px) {
+  .container-about-page {
+    .profile {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      .background-image {
+        position: relative;
+        margin-top: 5%;
+        width: 100vw;
+        height: 80vh;
+        z-index: -1;
+        object-fit: cover;
+        object-position: 50% 40%;
+        transform: translateY(-80px);
+      }
+      .about-page-header {
+        top: 40%;
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-    h1 {
-      letter-spacing: 1px;
-      font-size: 350px;
-      font-family: 'Coolvetica';
-      color: #f8f6f3;
-      font-weight: 400;
-      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); // Add this line
+        h1 {
+          letter-spacing: 1px;
+          font-size: 350px;
+          font-family: 'Coolvetica';
+          color: #f8f6f3;
+          font-weight: 400;
+          text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); // Add this line
+        }
+      }
+      .description {
+        width: 70vw;
+        margin-top: -80px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+
+        p {
+          font-size: 1.5rem;
+        }
+      }
     }
   }
-  .description {
-    width: 70vw;
-    margin-top: -80px;
-    display: flex;
-    position: relative;
-    justify-content: center;
+}
 
-    p {
-      font-size: 1.5rem;
+@media (max-width: 480px) {
+  .container-about-page {
+    .profile {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      .background-image {
+        position: relative;
+        margin-top: 50%;
+        width: 300px;
+        height: 300px;
+        z-index: -1;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: 50% 40%;
+        transform: translateY(-80px);
+      }
+      .about-page-header {
+        margin-top: -70px;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+          font-family: 'Coolvetica';
+          color: #354e91;
+          font-weight: 400;
+        }
+      }
+
+      .description {
+        width: 70vw;
+        margin-top: -20px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+
+        p {
+          font-size: 1rem;
+        }
+      }
     }
   }
 }

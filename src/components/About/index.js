@@ -5,7 +5,7 @@ import Me from '../../assets/images/me.jpg'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const headerArray = ' About    me.'.split('')
+  const headerArray = ' About me.'.split('')
 
   return (
     <div className="container-about-page">
