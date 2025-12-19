@@ -1,47 +1,96 @@
-.contacts-page {
-  flex-wrap: nowrap;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  .text-zone-main {
-    width: auto;
-    display: inline-flex;
+@media (width > 480px) {
+  .contacts-page {
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text-zone-main {
+      width: auto;
+      display: inline-flex;
 
-    ul {
-      gap: 20px;
-      display: flex; 
-      align-items: center; 
-      justify-content: center;
-      margin: 0;
-      list-style: none;
-    }
-
-    a {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      gap: 30px;
-      p {
-        position: absolute;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-        font-size: 25px;
-      }
-      svg {
-        margin-left: 50px;
-        margin-right: 50px;
-        transition: transform 0.3s;
-        font-size: 70px;
+      ul {
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        list-style: none;
       }
 
-      &:hover {
+      a {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        p {
+          position: absolute;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+          font-size: 25px;
+        }
         svg {
-          transform: translateY(-50px);
-          color: #354e91;
+          margin-left: 50px;
+          margin-right: 50px;
+          transition: transform 0.3s;
+          font-size: 70px;
         }
 
-        p {
-          opacity: 1; 
+        &:hover {
+          svg {
+            transform: translateY(-50px);
+            color: #354e91;
+          }
+
+          p {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .contacts-page {
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text-zone-main {
+      width: auto;
+      display: flex;
+
+      ul {
+        margin-left: -45px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+
+        li {
+          flex-direction: row;
+        }
+
+        a {
+          display: flex;
+
+          align-items: center;
+          flex-direction: row;
+          gap: 30px;
+          p {
+            position: relative;
+            opacity: 1;
+            // transition: opacity 0.3s ease;
+            font-size: 1.4rem;
+          }
+          svg {
+            display: relative;
+            transition: transform 0.3s;
+            font-size: 2.5rem;
+          }
         }
       }
     }
