@@ -76,10 +76,13 @@
 
         a {
           display: flex;
-
           align-items: center;
           flex-direction: row;
           gap: 30px;
+
+          a:link {
+            text-decoration: none;
+          }
           p {
             position: relative;
             opacity: 1;
