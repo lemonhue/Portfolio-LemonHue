@@ -53,10 +53,12 @@
     .profile {
       display: flex;
       align-items: center;
+      justify-content: center;
       flex-direction: column;
-      width: 100%;
+      width: 100vw;
       height: 100vh;
       .background-image {
+        display: none;
         position: relative;
         margin-top: 50%;
         width: 300px;
@@ -68,7 +70,6 @@
         transform: translateY(-80px);
       }
       .about-page-header {
-        margin-top: -70px;
         display: flex;
         position: relative;
         flex-direction: column;
@@ -76,6 +77,7 @@
         justify-content: center;
 
         h1 {
+          font-size: 2.5rem;
           font-family: 'Coolvetica';
           color: #354e91;
           font-weight: 400;
