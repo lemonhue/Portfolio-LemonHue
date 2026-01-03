@@ -87,6 +87,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 0px;
     margin-top: 20px;
+    animation: fadeIn 1s 1.5s backwards;
   }
 
   .card {
@@ -157,6 +158,7 @@
           padding-top: -60px;
           overflow: hidden;
           transition: transform 0.3s;
+          animation: fadeIn 1s 1.5s backwards;
 
           h2 {
             color: #31373b;
