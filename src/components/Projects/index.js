@@ -45,6 +45,23 @@ const Projects = () => {
               </a>
             </div>
           </div>
+          <div className="card">
+            <h1>02</h1>
+            <div  className="card-content-header">
+              <a >Artfolio</a>
+            </div>
+            <div className="card-description">
+              <h2>
+                My personal Artfolio built with MERN and Cloudinary.  <br />
+              </h2>
+            </div>
+            <div className="card-link">
+              <span>Link: </span>
+              <a href="https://github.com/lemonhue/Artfolio">
+                https://github.com/lemonhue/Artfolio
+              </a>
+            </div>
+          </div>
         </grid>
       </div>
     </div>
