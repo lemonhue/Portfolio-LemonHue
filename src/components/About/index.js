@@ -22,9 +22,7 @@ const About = () => {
         </div>
         <div className="description">
           <p>
-            I’m Lou, though I go by Lemonhue online. My passion for the arts led
-            me to programming, where I found a perfect balance between
-            creativity and logic. I love creating projects that don’t just work
+            I’m Lou, but I go by Lemonhue online. I love creating projects that don’t just work
             well but also spark inspiration through their visuals.{' '}
           </p>
         </div>
