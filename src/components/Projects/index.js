@@ -16,7 +16,7 @@ const Projects = () => {
 
   return (
     <div className="container-projects-page">
-      <div className="text-zone">
+      <div className="projects-page-text-zone">
         <h1>
           <AnimatedLetters
             strArray={headerArray}
@@ -30,8 +30,8 @@ const Projects = () => {
         <grid className="cards">
           <div className="card">
             <h1>01</h1>
-            <div  className="card-content-header">
-              <a >AssetPro</a>
+            <div className="card-content-header">
+              <a>AssetPro</a>
             </div>
             <div className="card-description">
               <h2>
@@ -47,12 +47,12 @@ const Projects = () => {
           </div>
           <div className="card">
             <h1>02</h1>
-            <div  className="card-content-header">
-              <a >Artfolio</a>
+            <div className="card-content-header">
+              <a>Artfolio</a>
             </div>
             <div className="card-description">
               <h2>
-                My personal Artfolio built with MERN and Cloudinary.  <br />
+                My personal Artfolio built with MERN and Cloudinary. <br />
               </h2>
             </div>
             <div className="card-link">
