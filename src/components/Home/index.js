@@ -85,7 +85,7 @@ const Home = () => {
                 </li>
               </ul>
             </div>
-            <div className="contact-button">
+            <div className="home-page-contact-button">
               <Link to="/contacts" className="flat-button">
                 CONTACT ME
               </Link>
