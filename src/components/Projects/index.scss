@@ -1,5 +1,5 @@
 @media (width > 480px) {
-  .text-zone {
+  .projects-page-text-zone {
     position: absolute;
     left: 2%;
     top: 12%;
@@ -10,20 +10,20 @@
     max-height: 90%;
 
     h1 {
-      font-size: 3rem;
+      font-size: clamp(2.5rem, 4vw, 3.5rem);
+      letter-spacing: 1px;
       font-family: 'Coolvetica';
       color: #354e91;
-      font-weight: 500;
       position: relative;
     }
   }
 
-  .card-link {
+  .projects-card-link {
     span {
       font-family: sans-serif;
     }
   }
-  .card-content-header {
+  .projects-card-header {
     text-decoration: none;
     display: flex;
     font-family: 'Coolvetica';
@@ -46,7 +46,7 @@
     text-decoration: underline;
   }
 
-  .card-link {
+  .projects-card-link {
     border-top: 1px solid #31373b; // Adds a border line on top only
     border-bottom: 1px solid #464e53;
     font-size: 15px;
@@ -81,21 +81,19 @@
     max-height: 90%;
   }
 
-  .cards {
+  .projects-cards {
     margin-left: -5px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0px;
+    gap: clamp(0.75rem, 3vw, 1rem);
     margin-top: 20px;
     animation: fadeIn 1s 1.5s backwards;
   }
 
-  .card {
+  .projects-card {
     border-top: 1px solid #464e53; // Adds a border line on top only
-    max-width: 300px;
-    min-width: 300px;
-    min-height: 300px;
-    max-height: 300px;
+    width: clamp(100px, 40vw, 300px);
+    height: clamp(100px, 60vw, 300px);
     padding-top: -60px;
     overflow: hidden;
     transition: transform 0.3s;
@@ -114,7 +112,7 @@
     width: 100vw;
     height: 100vh;
     align-items: center;
-    .text-zone {
+    .projects-page-text-zone {
       position: relative;
       width: 100%;
       height: 10%;
@@ -123,8 +121,8 @@
       max-height: 10%;
 
       h1 {
-        left: 26px;
-        font-size: 2rem;
+        left: 15px;
+        font-size: clamp(2.5rem, 4vw, 3.5rem);
         font-family: 'Coolvetica';
         color: #354e91;
         font-weight: 500;
@@ -142,7 +140,7 @@
       display: table-cell;
       max-height: 90%;
 
-      .cards {
+      .projects-cards {
         margin-left: -5px;
         display: flexs;
         justify-content: center;
@@ -150,7 +148,7 @@
         gap: 20px;
         margin-top: 20px;
 
-        .card {
+        .projects-card {
           border-top: 1px solid #464e53; // Adds a border line on top only
           max-width: 300px;
           min-height: 300px;
@@ -176,7 +174,7 @@
             margin: 0px;
           }
 
-          .card-content-header {
+          .projects-card-header {
             text-decoration: none;
             display: flex;
             font-family: 'Coolvetica';
@@ -192,7 +190,7 @@
               text-decoration: underline;
             }
           }
-          .card-link {
+          .projects-card-link {
             border-top: 1px solid #31373b; // Adds a border line on top only
             border-bottom: 1px solid #464e53;
             font-size: 15px;
