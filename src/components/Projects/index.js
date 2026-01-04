@@ -27,35 +27,35 @@ const Projects = () => {
       </div>
 
       <div className="project-list">
-        <grid className="cards">
-          <div className="card">
+        <grid className="projects-cards">
+          <div className="projects-card">
             <h1>01</h1>
-            <div className="card-content-header">
+            <div className="projects-card-header">
               <a>AssetPro</a>
             </div>
-            <div className="card-description">
+            <div className="projects-card-description">
               <h2>
                 An Asset Management System built with MERN <br />
               </h2>
             </div>
-            <div className="card-link">
+            <div className="projects-card-link">
               <span>Link: </span>
               <a href="https://github.com/lemonhue/AssetPro">
                 https://github.com/lemonhue/AssetPro
               </a>
             </div>
           </div>
-          <div className="card">
+          <div className="projects-card">
             <h1>02</h1>
-            <div className="card-content-header">
+            <div className="projects-card-header">
               <a>Artfolio</a>
             </div>
-            <div className="card-description">
+            <div className="projects-card-description">
               <h2>
                 My personal Artfolio built with MERN and Cloudinary. <br />
               </h2>
             </div>
-            <div className="card-link">
+            <div className="projects-card-link">
               <span>Link: </span>
               <a href="https://github.com/lemonhue/Artfolio">
                 https://github.com/lemonhue/Artfolio
