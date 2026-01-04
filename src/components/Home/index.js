@@ -31,67 +31,69 @@ const Home = () => {
 
   return (
     <div className="container-home-page">
-      <div className="home-page-content">
-        <div className="text-zone">
-          <h1>
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={nameArray}
-              idx={15}
-            />
-            <br />
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={jobArray}
-              idx={22}
-            />
-          </h1>
+      <div className="home-page-content-container">
+        <div className="home-page-text-zone-container">
+          <div className="home-page-text-zone">
+            <h1>
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={nameArray}
+                idx={15}
+              />
+              <br />
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={jobArray}
+                idx={22}
+              />
+            </h1>
 
-          <div className="skills">
-            <ul>
-              <li>
-                <img src={React} alt="React" />
-              </li>
-              <li>
-                <img src={JavaScript} alt="JavaScript" />
-              </li>
-              <li>
-                <img src={HTML} alt="HTML" />
-              </li>
-              <li>
-                <img src={CSS} alt="CSS" />
-              </li>
-              <li>
-                <img src={Next} alt="Next" />
-              </li>
-              <li>
-                <img src={NodeJS} alt="Node" />
-              </li>
-              <li>
-                <img src={Express} alt="Express" />
-              </li>
-              <li>
-                <img src={MongoDB} alt="MongoDB" />
-              </li>
-              <li>
-                <img src={Firebase} alt="Firebase" />
-              </li>
-              <li>
-                <img src={Postman} alt="Postman" />
-              </li>
-              <li>
-                <img src={Github} alt="Github" />
-              </li>
-            </ul>
+            <div className="home-page-skills">
+              <ul>
+                <li>
+                  <img src={React} alt="React" />
+                </li>
+                <li>
+                  <img src={JavaScript} alt="JavaScript" />
+                </li>
+                <li>
+                  <img src={HTML} alt="HTML" />
+                </li>
+                <li>
+                  <img src={CSS} alt="CSS" />
+                </li>
+                <li>
+                  <img src={Next} alt="Next" />
+                </li>
+                <li>
+                  <img src={NodeJS} alt="Node" />
+                </li>
+                <li>
+                  <img src={Express} alt="Express" />
+                </li>
+                <li>
+                  <img src={MongoDB} alt="MongoDB" />
+                </li>
+                <li>
+                  <img src={Firebase} alt="Firebase" />
+                </li>
+                <li>
+                  <img src={Postman} alt="Postman" />
+                </li>
+                <li>
+                  <img src={Github} alt="Github" />
+                </li>
+              </ul>
+            </div>
+            <div className="contact-button">
+              <Link to="/contacts" className="flat-button">
+                CONTACT ME
+              </Link>
+            </div>
           </div>
-          <div className="contact-button">
-            <Link to="/contacts" className="flat-button">
-              CONTACT ME
-            </Link>
-          </div>
+
+          <Logo />
         </div>
-
-        <Logo />
       </div>
     </div>
   )
