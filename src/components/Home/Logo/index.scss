@@ -1,31 +1,14 @@
-@media (width > 480px) {
-  .image-container {
-    z-index: 0;
-    position: relative;
-    opacity: 1;
-  }
-
-  .image {
-    border-radius: 50%;
-    height: 700px;
-    width: 700px;
-    animation: fadeIn 1s 1.8s backwards;
-  }
+// @media (width > 480px) {
+.image-container {
+  z-index: 0;
+  position: relative;
+  opacity: 1;
 }
 
-@media (max-width: 480px) {
-  .image-container {
-    z-index: 0;
-    opacity: 1;
-    height: 50%;
-    margin-top: 130px;
-    animation: fadeIn 1s 1.8s backwards;
-  }
-
-  .image {
-    border-radius: 50%;
-
-    height: 300px;
-    width: 300px;
-  }
+.image {
+  border-radius: 50%;
+  height: 700px;
+  width: clamp(250px, 50vw, 700px);
+  height: clamp(250px, 50vw, 700px);
+  animation: fadeIn 1s 1.8s backwards;
 }
